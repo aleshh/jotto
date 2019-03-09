@@ -20,7 +20,7 @@ const GuessedWords = props => {
                   {props.guessedWords.map((word, index) => (
                     <tr key={index} data-test='guessed-word'>
                       <td>{word.guessedWord}</td>
-                      <td>{word.matchedCount}</td>
+                      <td>{word.letterMatchCount}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -35,7 +35,7 @@ GuessedWords.propTypes = {
   guessedWords: PropTypes.arrayOf(
     PropTypes.shape({
       guessedWord: PropTypes.string.isRequired,
-      matchedCount: PropTypes.number.isRequired
+      letterMatchCount: PropTypes.number.isRequired
     })
   ).isRequired
 }
