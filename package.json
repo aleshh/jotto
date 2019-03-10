@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-redux": "^5.0.7",
@@ -30,6 +31,7 @@
     "check-prop-types": "^1.1.2",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
-    "jest-enzyme": "^7.0.1"
+    "jest-enzyme": "^7.0.1",
+    "moxios": "^0.4.0"
   }
 }
